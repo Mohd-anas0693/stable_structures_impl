@@ -1,8 +1,8 @@
 {
   "canisters": {
-    "stable_struct_impl_backend": {
-      "candid": "src/stable_struct_impl_backend/stable_struct_impl_backend.did",
-      "package": "stable_struct_impl_backend",
+    "stableImp_backend": {
+      "candid": "src/stableImp_backend/stableImp_backend.did",
+      "package": "stableImp_backend",
       "type": "rust"
     }
   },

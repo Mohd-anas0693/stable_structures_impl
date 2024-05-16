@@ -1,0 +1,8 @@
+type PostData = record { title : text; data : text; created_by : text };
+type Result = variant { Ok; Err : text };
+type Result_1 = variant { Ok : PostData; Err : text };
+service : {
+  create_post : (PostData) -> (Result);
+  get_post : () -> (Result_1) query;
+  remove_post : () -> (Result_1);
+}
