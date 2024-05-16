@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/stable_struct_impl_backend"
+]
+resolver = "2"
